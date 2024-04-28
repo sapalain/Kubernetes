@@ -14,10 +14,8 @@ mongodb:
   environment:
     - MONGO_INITDB_ROOT_USERNAME: root
     - MONGO_INITDB_ROOT_PASSWORD: pass
-  volumes:
+  volumes: 
     - mongo-data:/data/db
 
 volumes:
    mongo-data:
-
-        
