@@ -12,8 +12,8 @@ services:
 mongodb:
   image: mongo
   environment:
-    - MONGO_INITDB_ROOT_USERNAME: root
-    - MONGO_INITDB_ROOT_PASSWORD: pass
+    MONGO_INITDB_ROOT_USERNAME: root
+    MONGO_INITDB_ROOT_PASSWORD: pass
   volumes: 
     - mongo-data:/data/db
 
